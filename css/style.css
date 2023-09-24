@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    background-color: #fefae0;
+}
+
+nav {
+    padding: 30px;
+    background-color: #ccd5ae;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+}
+
+.navLinks {
+    display: flex;
+    margin-top: -50px;
+    margin-left: 30px;
+}
+
+nav img {
+    width: 35px;
+    margin-top: -10px;
+}
+
+h1 {
+    padding-top: 50px;
+    margin-left: 108px;
+}
+
+.productEen {
+    display: flex;
+    flex: 1;
+    max-width: 1300px;
+    margin: auto;
+    gap: 20px;
+
+}
+
+#beschrijving {
+    padding-bottom: 20px;
+
+}
+
+.productEen img {
+    width: 500px;
+    border: solid black;
+}
+
+#prijs {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.rechts {
+    margin-top: -40px;
+}
+
+.rechts a {
+    text-decoration: none;
+    background-color: #3a5a40;
+    color: white;
+    padding: 15px 280px 15px 280px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+.details {
+    display: flex;
+    flex: 1;
+    gap: 30px;
+}
+
+h2 {
+    font-size: 19px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.plusmin {
+    padding: 20px 100px 20px 20px;
+    margin: 90px 0px 50px 100px;
+    border-style: hidden;
+    white-space: nowrap;
+    background-color: #fed9b7;
+}
+
+#omschrijvingid {
+    margin: 80px 100px 0px 0px;
+}
+
+#omschrijvingid p {
+    margin-top: -15px;
+}
+
+.gerelateerde {
+    background-color: #a3b18a;
+    padding-top: 50px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.articles {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    flex: 1;
+    gap: 40px;
+}
+
+.articles img {
+    max-width: 100%;
+    margin-left: 70px;
+    max-height: 150px;
+    border-radius: 50px;
+}
+
+h5 {
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    padding: 25px;
+    text-align: center;
+    background-color: #3a5a40;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    margin-left: 20px;
+}
