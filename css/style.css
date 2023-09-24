@@ -27,8 +27,12 @@ nav img {
 }
 
 h1 {
-    padding-top: 50px;
-    margin-left: 108px;
+    padding-top: 90px;
+    display: flex;
+    flex: 1;
+    max-width: 1300px;
+    margin: auto;
+    gap: 20px;
 }
 
 .productEen {
